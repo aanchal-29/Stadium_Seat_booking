@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <link rel="stylesheet" href='/static/seat.css' />
+  <title>Stadium Seat Booking</title>
+</head>
+
+
+
+<body>
+  
+
+
+  <form method="POST" action="" >
+
+    <div class="booking-container">
+      <label for="number" class="form-label">No. of seats</label> 
+      <input type="number" class="form-control" name="NoOfSeat" >
+    </div> 
+
+    <div class="booking-container">
+      <label>Pick a Sport:</label>
+      <select name="sporttype" id="Sport">
+        <option value="5000">Cricket (Rs. 5000)</option>
+        <option value="4000">Football (Rs. 4000)</option>
+        <option value="1000">volley Ball (Rs. 1000)</option>
+  
+      </select>
+    </div> 
+    
+    <br>
+    <div class="booking-container">
+      <label>Pick a seatType:</label>
+      <select name="seatType" id="SeatTType">
+  
+        <option value="300">Platinum (Rs. 300)</option>
+        <option value="200">VIP (Rs. 200)</option>
+        <option value="100">General (Rs. 100)</option>
+  
+      </select>
+    </div>
+    <br>
+
+        <button type="submit" class="btn btn-primary">Submit</button>
+
+    <br>
+    <br>
+    
+
+    
+  </form>
+
+
+
+
+  <ul class="showcase">
+    <li>
+      <div class="seat"></div>
+      <small>N/A</small>
+    </li>
+
+    <li>
+      <div class="seat selected"></div>
+      <small>Selected</small>
+    </li>
+
+    <li>
+      <div class="seat occupied"></div>
+      <small>Occupied</small>
+    </li>
+  </ul>
+
+  <div class="container">
+    <div class="screen"></div>
+
+
+    <p> Seat representation</p>
+    <div class="row">
+      <div class="seat"></div>
+      <div class="seat"></div>
+      <div class="seat"></div>
+      <div class="seat"></div>
+      <div class="seat"></div>
+      <div class="seat"></div>
+      <div class="seat"></div>
+      <div class="seat"></div>
+    </div>
+    <div class="row">
+      <div class="seat"></div>
+      <div class="seat"></div>
+      <div class="seat"></div>
+      <div class="seat occupied"></div>
+      <div class="seat occupied"></div>
+      <div class="seat"></div>
+      <div class="seat"></div>
+      <div class="seat"></div>
+    </div>
+
+    <div class="row">
+      <div class="seat"></div>
+      <div class="seat"></div>
+      <div class="seat"></div>
+      <div class="seat"></div>
+      <div class="seat"></div>
+      <div class="seat"></div>
+      <div class="seat occupied"></div>
+      <div class="seat occupied"></div>
+    </div>
+
+    <div class="row">
+      <div class="seat"></div>
+      <div class="seat"></div>
+      <div class="seat"></div>
+      <div class="seat"></div>
+      <div class="seat"></div>
+      <div class="seat"></div>
+      <div class="seat"></div>
+      <div class="seat"></div>
+    </div>
+
+    <div class="row">
+      <div class="seat"></div>
+      <div class="seat"></div>
+      <div class="seat"></div>
+      <div class="seat occupied"></div>
+      <div class="seat occupied"></div>
+      <div class="seat"></div>
+      <div class="seat"></div>
+      <div class="seat"></div>
+    </div>
+
+    <div class="row">
+      <div class="seat"></div>
+      <div class="seat"></div>
+      <div class="seat"></div>
+      <div class="seat"></div>
+      <div class="seat occupied"></div>
+      <div class="seat occupied"></div>
+      <div class="seat occupied"></div>
+      <div class="seat"></div>
+    </div>
+
+    <div class="row_left">
+      <div class="seat"></div>
+      <div class="seat"></div>
+      <div class="seat"></div>
+      <div class="seat"></div>
+      <div class="seat"></div>
+      <div class="seat"></div>
+
+    </div>
+
+    <div class="row_left">
+      <div class="seat"></div>
+      <div class="seat"></div>
+      <div class="seat"></div>
+      <div class="seat"></div>
+      <div class="seat"></div>
+      <div class="seat"></div>
+
+    </div>
+
+    <div class="row_left">
+      <div class="seat"></div>
+      <div class="seat"></div>
+      <div class="seat"></div>
+      <div class="seat"></div>
+      <div class="seat"></div>
+      <div class="seat"></div>
+
+    </div>
+    <div class="row_left">
+      <div class="seat"></div>
+      <div class="seat"></div>
+      <div class="seat"></div>
+      <div class="seat"></div>
+      <div class="seat"></div>
+      <div class="seat"></div>
+    </div>
+    <div class="row_left">
+      <div class="seat"></div>
+      <div class="seat"></div>
+      <div class="seat"></div>
+      <div class="seat"></div>
+      <div class="seat"></div>
+      <div class="seat"></div>
+
+
+
+    </div>
+    <div class="row_left">
+      <div class="seat"></div>
+      <div class="seat"></div>
+      <div class="seat"></div>
+      <div class="seat"></div>
+      <div class="seat"></div>
+      <div class="seat"></div>
+
+
+
+    </div>
+    <div class="row_left">
+      <div class="seat"></div>
+      <div class="seat"></div>
+      <div class="seat"></div>
+      <div class="seat"></div>
+      <div class="seat"></div>
+      <div class="seat"></div>
+
+    </div>
+    <div class="row_left">
+      <div class="seat"></div>
+      <div class="seat"></div>
+      <div class="seat"></div>
+      <div class="seat"></div>
+      <div class="seat"></div>
+      <div class="seat"></div>
+
+    </div>
+    <div class="row_down">
+      <div class="seat"></div>
+      <div class="seat"></div>
+      <div class="seat"></div>
+      <div class="seat"></div>
+      <div class="seat"></div>
+      <div class="seat"></div>
+      <div class="seat"></div>
+      <div class="seat"></div>
+    </div>
+    <div class="row_down">
+      <div class="seat"></div>
+      <div class="seat"></div>
+      <div class="seat"></div>
+      <div class="seat"></div>
+      <div class="seat"></div>
+      <div class="seat"></div>
+      <div class="seat"></div>
+      <div class="seat"></div>
+    </div>
+    <div class="row_down">
+      <div class="seat"></div>
+      <div class="seat"></div>
+      <div class="seat"></div>
+      <div class="seat"></div>
+      <div class="seat"></div>
+      <div class="seat"></div>
+      <div class="seat"></div>
+      <div class="seat"></div>
+    </div>
+    <div class="row_down">
+      <div class="seat"></div>
+      <div class="seat"></div>
+      <div class="seat"></div>
+      <div class="seat"></div>
+      <div class="seat"></div>
+      <div class="seat"></div>
+      <div class="seat"></div>
+      <div class="seat"></div>
+    </div>
+
+    <div class="row_down">
+      <div class="seat"></div>
+      <div class="seat"></div>
+      <div class="seat"></div>
+      <div class="seat"></div>
+      <div class="seat"></div>
+      <div class="seat"></div>
+      <div class="seat"></div>
+      <div class="seat"></div>
+    </div>
+
+    <div class="row_down">
+      <div class="seat"></div>
+      <div class="seat"></div>
+      <div class="seat"></div>
+      <div class="seat"></div>
+      <div class="seat"></div>
+      <div class="seat"></div>
+      <div class="seat"></div>
+      <div class="seat"></div>
+    </div>
+
+
+
+
+  </div>
+
+  <p class="text">
+    You have selected <span id="NoSeat">0</span> seats for <span id="ssport">_</span> you will pay a price of $<span
+      id="total">0</span>
+  </p>
+  <!-- <script src="/script.js"></script> -->
+  
+</body>
+
+</html>
