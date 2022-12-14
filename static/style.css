@@ -1,0 +1,124 @@
+* {
+    margin: 0;
+    padding: 0;
+
+}
+
+.logo {
+    width: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo img {
+    width: 60%;
+    border: 3px solid white;
+    border-radius: 50px;
+
+}
+
+.navbar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   position: sticky;
+   top: 0;
+   cursor: pointer;
+   
+}
+
+.nav-list{
+    width: 50%;
+    /* background-color: black; */
+    display: flex;
+    align-items: center;
+}
+
+.nav-list li{
+    list-style-type: none;
+    padding: 26px 30px;
+}
+
+.nav-list li a{
+    text-decoration: none;
+    color: white;
+}
+
+.nav-list li a:hover {
+    text-decoration: none;
+    color: grey;
+}
+
+.righNav {
+    /* background-color: blueviolet; */
+    width: 50%;
+    text-align: right;
+    padding: 0 23px;
+}
+
+#search {
+    padding: 5px;
+    font-size: 17px;
+    border: 2px solid grey;
+    border-radius: 9px;
+    justify-content: center;
+    position: sticky;
+    top:0;
+    cursor: pointer;
+}
+
+.background {
+    background: rgba(0, 0, 0, 0.7) url('/static/img/stadium_pic.jpg');
+    
+    background-size: cover;
+    background-blend-mode: darken;
+}
+.firstSection{
+   height: 100vh; 
+}
+
+.box-main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    /* font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif'; */
+    max-width: 50%;
+    margin: auto;
+        height: 80%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif' ;
+}
+
+.firstHalf{
+    width: 80%;
+   flex-direction: column;
+    display: flex;
+    align-items: center;   
+}
+
+.secondHalf{
+    width: 30%;
+}
+
+.secondHalf img {
+    width: 60%; 
+    border: 3px solid white;
+    border-radius: 50px;
+    display: block;
+    /* display: flex; */
+    margin: auto;
+
+
+}
+.text-big{
+    font-size: 1000%;
+}
+.text-small{
+    font-size: 100%;
+}
+
+.Booking{
+
+    background-color: rgb(116, 100, 180) ;
+}
